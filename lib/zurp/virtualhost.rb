@@ -1,4 +1,4 @@
-class ServerConfig
+class VirtualHost
   @@configuration = {}
 
   def self.set(property, value)
@@ -7,6 +7,14 @@ class ServerConfig
 
   def self.get(property)
     @@configuration[property]
+  end
+
+  def self.delete(property)
+    @@configuration.delete property
+  end
+
+  def self.raw
+    @@configuration
   end
 
 end
