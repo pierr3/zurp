@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1721367-9255-46d2-bf43-7eb60950e2e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zurp.gemspec" afterPath="$PROJECT_DIR$/zurp.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/zurp/nginx/nginx.rb" afterPath="$PROJECT_DIR$/data/zurp/nginx/nginx.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/zurp/nginx.rb" afterPath="$PROJECT_DIR$/lib/zurp/nginx.rb" />
     </list>
     <ignored path="zurp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +27,18 @@
       <file leaf-file-name="nginx.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/zurp/nginx/nginx.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="45">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nginx.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/zurp/nginx.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -51,12 +61,12 @@
         <option value="$PROJECT_DIR$/data/zurp/nginx/vh.rb" />
         <option value="$PROJECT_DIR$/data/zurp/nginx/nginxvirtualhost.rb" />
         <option value="$PROJECT_DIR$/data/zurp/virtualhost.rb" />
-        <option value="$PROJECT_DIR$/data/zurp/nginx/nginx.rb" />
         <option value="$PROJECT_DIR$/lib/zurp.rb" />
-        <option value="$PROJECT_DIR$/lib/zurp/nginx.rb" />
         <option value="$PROJECT_DIR$/data/zurp/nginx/nginxvh.rb" />
         <option value="$PROJECT_DIR$/zurp.gemspec" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/zurp/nginx/nginx.rb" />
+        <option value="$PROJECT_DIR$/lib/zurp/nginx.rb" />
       </list>
     </option>
   </component>
@@ -124,15 +134,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zurp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zurp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nginx" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zurp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,12 +329,12 @@
       <workItem from="1462627181522" duration="76000" />
       <workItem from="1462627266193" duration="11613000" />
       <workItem from="1462639742963" duration="4097000" />
-      <workItem from="1462643849235" duration="12562000" />
+      <workItem from="1462643849235" duration="13212000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28348000" />
+    <option name="totallyTimeSpent" value="28998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1089" y="24" width="1295" height="744" extended-state="6" />
@@ -557,14 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/zurp/nginx.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/zurp.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -592,10 +604,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/zurp/nginx.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/zurp/nginx/nginx.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="45">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
           <folding />
         </state>
       </provider>

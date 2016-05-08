@@ -7,7 +7,7 @@ module Zurp
     def initialize
       # We assume nginx config file can be in /etc/nginx or /usr/local/nginx
       for path in NginxConfig.get :directories
-        if File.directory? path
+        if File.exist? File.join(path, "nginx.conf")
           @working_dir = path
           break
         end
